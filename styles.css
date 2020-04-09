@@ -98,3 +98,8 @@ header {
 .card_info {
     padding: 24px;
 }
+
+.card_content {
+    padding: 10px;
+    text-align: center;
+}
