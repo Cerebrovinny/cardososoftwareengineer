@@ -1,5 +1,7 @@
 import React from 'react';
 import './styles.css';
+import Projects from '../Projects/index';
+import { Link } from 'react-router-dom';
 
 import imgs from '../../assets/vinicius-cardoso.jpg'
 
@@ -9,7 +11,7 @@ export default function Home() {
             <header>
             <div class="links">
                             <a href="/">About me</a>
-                            <a href="projects.html">Projects</a>
+                            <Link to="projects">Projects</Link>
             </div>
             </header>
 
